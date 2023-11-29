@@ -1,0 +1,42 @@
+criar banco
+create database carlosteste
+
+acessar banco
+use carlosteste
+
+criar tabela
+create table teste (
+	id int not null
+)
+
+verificar dados da tabela
+select * from teste
+
+inserir dados de teste
+insert into teste (id) values (1)
+insert into teste (id) values (2)
+insert into teste (id) values (3)
+insert into teste (id) values (4)
+insert into teste (id) values (5)
+
+verificar dados da tabela
+select * from teste
+
+pegar id do container
+docker ps
+
+copiar banco
+docker cp  b348a8fd573d:/var/opt/mssql/backup/bkp-banco.bak C:\banco
+
+restalrar banco
+docker cp bkp-banco.bak afa37c8dcb61:/var/opt/mssql/backup
+
+
+
+insert into Usuarios (NomeCompleto, Email, Senha, DataCadastro, DataAtualizacao) values ('Usuario 102', 'usuario102@exemple.com', 'senha102', getdate(), getdate())
+
+update Usuarios set NomeCompleto = 'Usuario 101', Email = 'usuario101@exemple.com', Senha = 'senha101', DataCadastro = GETDATE(), DataAtualizacao = GETDATE()  where UserID = 101
+
+uberaba cartuchos
+
+https://www.youtube.com/watch?v=sWAGHdZ6hbc&list=PL5r2C0y-6geQT2yCN__dD0bR-OOwMM0PT&index=9

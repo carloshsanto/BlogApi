@@ -1,0 +1,26 @@
+--Criando a Tabela Usuarios:
+Create Table Usuarios (
+Pk Int Primary Key Identity (1, 1) Not Null,
+Nome Varchar(100) Not Null,
+Email Varchar(100) Not null,
+CPF Varchar(11) Not Null, 
+Celular Varchar(11) Not Null,
+DataNascimento Date Not Null
+)
+
+--Criando a Tabela Despesas:
+Create Table Despesas (
+Pk Int Primary Key Identity (1, 1) Not Null, 
+FkUsuarios Int Not Null,
+Data Date Not Null,
+Descricao Varchar(100) Not Null,
+Valor Decimal(18, 2) Not Null,
+Pago Char(3) Not Null,
+Observacao Varchar(2000) Null
+)
+
+--Criando a Constraint (Regra) de integridade as Chaves Primarias e Chaves Estrangeiras:
+Alter Table Despesas
+Add Constraint FkUsuarios_Despesas_Usuarios
+Foreign Key (FkUsuarios)
+References Usuarios(Pk)
