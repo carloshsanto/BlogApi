@@ -30,8 +30,8 @@ namespace BlogApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Aniversario")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Aniversario")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("Atividade")
                         .HasColumnType("bit");

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231128161350_primeira-migration")]
+    [Migration("20231129164527_primeira-migration")]
     partial class primeiramigration
     {
         /// <inheritdoc />
@@ -33,8 +33,8 @@ namespace BlogApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Aniversario")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Aniversario")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("Atividade")
                         .HasColumnType("bit");

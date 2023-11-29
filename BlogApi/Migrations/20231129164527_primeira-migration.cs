@@ -26,7 +26,7 @@ namespace BlogApi.Migrations
                     Endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Biografia = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Aniversario = table.Column<int>(type: "int", nullable: false),
+                    Aniversario = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Skype = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Facebook = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Instagram = table.Column<string>(type: "nvarchar(max)", nullable: false),

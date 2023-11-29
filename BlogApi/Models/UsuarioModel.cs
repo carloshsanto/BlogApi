@@ -16,7 +16,7 @@ namespace BlogApi.Models
         public string Endereco { get; set; }
         public string Cidade { get; set; }
         public string Biografia { get; set; }
-        public DataType Aniversario { get; set; }
+        public DateTime Aniversario { get; set; }
         public string Skype { get; set; }
         public string Facebook { get; set; }
         public string Instagram { get; set; }

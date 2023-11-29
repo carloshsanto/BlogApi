@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "udAnalg3wQeWjToHo/M6oO0PuRGpujlGf5QMQS+We0it2OaCXVxObJ16WNCL/jlCD8scrCsIHoTqvlTER6TKig==",
+  "dgSpecHash": "hXUKa0BVHSUo21mGfrinlJZM6k8ctT19Lkd3e0kFaATx5iO4xUPiLuLii4W7LkAhs0BweGtGL3LLeJ1wposfCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlos.santos\\Desktop\\BlogApi\\BlogApi\\BlogApi\\BlogApi.csproj",
+  "projectFilePath": "C:\\Users\\carlos.santos\\Documents\\GitHub\\BlogApi\\BlogApi\\BlogApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlos.santos\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\carlos.santos\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
