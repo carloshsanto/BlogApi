@@ -1,0 +1,58 @@
+---------------------------
+Usuario
+---------------------------
+Id
+NomeCompleto
+Email
+NomeUsuario
+FotoUsuario
+Senha
+Cargo
+Endereco
+Cidade
+Biografia
+Aniversario
+Skype
+Facebook
+Instagram
+linkedin
+Atividade
+AcessoUsuario  -  Administrador, Revidor, Editor
+DataCriaçãoUsuario
+DataAlteracaoUsuario
+---------------------------
+---------------------------
+
+NumeroPostagem - select
+
+---------------------------
+Postagem
+---------------------------
+Id
+TituloPostagem
+Descricao - SEO da pagina
+CorpoPostagem
+ImagemPostagem
+Assunto - negócios, esporte, etc
+Categoria - Desenvolvimento, infra estrutura, sistema operacional, seguraça da informação, marketing
+StatusPostagem - aprovado repovado cancelado
+VisitantePágina
+Curtidas
+NomeAutor
+DataPublicação
+DataAlteracaoPublicação
+---------------------------
+---------------------------
+
+
+---------------------------
+Comentarios
+---------------------------
+Id
+Comentario
+Nome 
+Email
+IdResposta - null
+IdPostagem
+---------------------------
+---------------------------
