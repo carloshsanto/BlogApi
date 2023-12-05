@@ -31,7 +31,7 @@ export default function Home() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav navbar-nav-scroll mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="dashboard.html">
+                  <a className="nav-link" href="">
                     <i className="bi bi-house-door me-1" />
                     Dashboard
                   </a>
@@ -45,8 +45,8 @@ export default function Home() {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i className="bi bi-pencil me-1" />
-                    Post
+                    <i className="bi  bi-blockquote-left me-1" />
+                    Postagens
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="postMenu">
                     <li>
@@ -97,12 +97,11 @@ export default function Home() {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <i className="bi bi-folder me-1" />
+                    <i className="bi bi-people me-1" />
                     Usuarios
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="pagesMenu">
-                    <li>
-                      {" "}
+                    <li>                      
                       <a
                         className="dropdown-item"
                         href="dashboard-author-list.html"
@@ -110,8 +109,7 @@ export default function Home() {
                         Author List
                       </a>
                     </li>
-                    <li>
-                      {" "}
+                    <li>                     
                       <a
                         className="dropdown-item"
                         href="dashboard-author-single.html"
@@ -145,54 +143,6 @@ export default function Home() {
                       >
                         Settings
                       </a>
-                    </li>
-                    <li className="dropdown-divider" />
-                    <li>
-                      {" "}
-                      <a
-                        className="dropdown-item"
-                        href="https://support.webestica.com/"
-                        target="_blank"
-                      >
-                        {" "}
-                        <i className="text-warning fa-fw bi bi-life-preserver me-2" />
-                        Support
-                      </a>
-                    </li>
-                    <li>
-                      {" "}
-                      <a
-                        className="dropdown-item"
-                        href="docs/index.html"
-                        target="_blank"
-                      >
-                        {" "}
-                        <i className="text-danger fa-fw bi bi-card-text me-2" />
-                        Documentation
-                      </a>
-                    </li>
-                    <li className="dropdown-divider" />
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="rtl/index.html"
-                        target="_blank"
-                      >
-                        {" "}
-                        <i className="text-info fa-fw bi bi-toggle-off me-2" />
-                        RTL demo
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="https://themes.getbootstrap.com/store/webestica/"
-                        target="_blank"
-                      >
-                        {" "}
-                        <i className="text-success fa-fw bi bi-cloud-download-fill me-2" />
-                        Buy blogzine!
-                      </a>{" "}
                     </li>
                   </ul>
                 </li>
@@ -239,7 +189,13 @@ export default function Home() {
                       <a className="dropdown-item" href="#">
                         <i className="bi bi-gear fa-fw me-2" />
                         Account Settings
-                      </a>
+                      </a>                      
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        <i className="bi bi-door-closed fa-fw me-2" />
+                        Sair
+                      </a>                      
                     </li>
                     <li className="dropdown-divider mb-3" />
                     <li>
