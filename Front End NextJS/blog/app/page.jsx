@@ -1,8 +1,9 @@
+import NavBar from "@/componentes/dashboard/NavBar";
 
 export default function Home() {
   return (
     <div>
-      Home
+      <NavBar />
     </div>
   )
 }
