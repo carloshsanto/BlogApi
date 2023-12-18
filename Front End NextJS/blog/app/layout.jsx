@@ -6,8 +6,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <link id="style-switch" rel="stylesheet" type="text/css" href="/app/globals.css"></link>
-      <link rel="shortcut icon" href="assets/images/favicon.ico"></link>
+      <link id="style-switch" rel="stylesheet" type="text/css" href="/app/globals.css"></link>     
       <link rel="preconnect" href="https://fonts.gstatic.com/"></link>
       <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;family=Rubik:wght@400;500;700&amp;display=swap" rel="stylesheet"></link>
       <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css"></link>

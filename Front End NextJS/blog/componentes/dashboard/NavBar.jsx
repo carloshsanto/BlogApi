@@ -8,7 +8,7 @@ export default function () {
       <header className="navbar-light navbar-sticky header-static border-bottom navbar-dashboard">
         <nav className="navbar navbar-expand-xl">
           <div className="container">
-            <a className="navbar-brand me-3" href={"/"}>
+            <a className="navbar-brand me-3">
               <Image
                 className="navbar-brand-item light-mode-item"
                 src="/assets/images/logo.svg"
